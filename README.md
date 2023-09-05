@@ -1,8 +1,8 @@
 # Movie_ticket_booking_system-1932041
 
-Backend API's for movie ticket booking system using Node js, Express and MongoDB.
+This movie ticket booking system is built using Node js, Express and MongoDB.
 
-**1. API to accept details of a movie screen.**
+**1. Accepting details of a movie screen.**
 
 Request method: POST
 
@@ -13,7 +13,7 @@ Request body (example):
 `{ "name":"inox", "seatInfo": { "A": { "numberOfSeats": 10, "aisleSeats": [0, 5 ,6, 9] }, "B": { "numberOfSeats": 15, "aisleSeats": [0, 5 ,6, 9] }, "D": { "numberOfSeats": 20, "aisleSeats": [0, 5 ,6, 9] } } }`
 
 
-**2. API to reserve tickets for given seats in a given screen**
+**2. Reserving tickets for given seats in a given screen**
 
 Request method: POST
 
@@ -24,7 +24,7 @@ Request body (example):
 `{ "seats": { "B": [1, 2], "C": [ 6, 7] } }`
 
 
-**3. API to get the available seats for a given screen**
+**3. Check the available seats for a given screen**
 
 Request method: GET
 
@@ -35,7 +35,7 @@ Response body (example):
 `{ "seats": { "A": [0, 1 ,2 ,6, 7, 8 , 9], "B": [0, 8 , 9], "D": [] } }`
 
 
-**4. API to get information of available tickets at a given position**
+**4. Fetch information of available tickets at a given position**
 
 Request method: GET
 
