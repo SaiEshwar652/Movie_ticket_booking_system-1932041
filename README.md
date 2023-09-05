@@ -2,8 +2,6 @@
 
 Backend API's for movie ticket booking system using Node js, Express and MongoDB.
 
-BASE_URL: https://shrouded-scrubland-75633.herokuapp.com/
-
 **1. API to accept details of a movie screen.**
 
 Request method: POST
